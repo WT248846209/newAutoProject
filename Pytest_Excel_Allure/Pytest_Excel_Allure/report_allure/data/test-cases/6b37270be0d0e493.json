@@ -1,0 +1,138 @@
+{
+  "uid" : "6b37270be0d0e493",
+  "name" : "A_001置顶用例，正常登陆并获取TOKEN",
+  "fullName" : "case.test_Excel#test01",
+  "historyId" : "6886b6a789baba80be0ad9116b5544b9",
+  "time" : {
+    "start" : 1667652794484,
+    "stop" : 1667652794685,
+    "duration" : 201
+  },
+  "description" : "置顶用例获取TOKEN",
+  "descriptionHtml" : "<p>置顶用例获取TOKEN</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1667652794460,
+      "stop" : 1667652794483,
+      "duration" : 23
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "置顶用例获取TOKEN",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送post请求",
+      "time" : {
+        "start" : 1667652794485,
+        "stop" : 1667652794652,
+        "duration" : 167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://shop-xo.hctestedu.com/index.php?s=api/user/login'"
+      }, {
+        "name" : "data",
+        "value" : "None"
+      }, {
+        "name" : "json",
+        "value" : "{'accounts': 'zz888', 'pwd': '123456', 'type': 'username'}"
+      }, {
+        "name" : "params",
+        "value" : "{'application': 'app', 'application_client_type': 'weixin'}"
+      }, {
+        "name" : "headers",
+        "value" : "None"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "b03deb7cde117a",
+      "name" : "stdout",
+      "source" : "b03deb7cde117a.txt",
+      "type" : "text/plain",
+      "size" : 725
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1667652797835,
+      "stop" : 1667652797835,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "F01_置顶用例"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_Excel"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-IT6V6FE6"
+  }, {
+    "name" : "thread",
+    "value" : "36028-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_Excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b37270be0d0e493.json",
+  "parameterValues" : [ ]
+}

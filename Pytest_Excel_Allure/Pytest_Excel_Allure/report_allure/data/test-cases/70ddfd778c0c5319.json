@@ -1,0 +1,135 @@
+{
+  "uid" : "70ddfd778c0c5319",
+  "name" : "DS_094_3验证能正确的下单商品",
+  "fullName" : "case.test_Excel#test01",
+  "historyId" : "b571dfce2fbc5056d5a9b236155ecc0d",
+  "time" : {
+    "start" : 1667652796440,
+    "stop" : 1667652796585,
+    "duration" : 145
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1667652794460,
+      "stop" : 1667652794483,
+      "duration" : 23
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送post请求",
+      "time" : {
+        "start" : 1667652796440,
+        "stop" : 1667652796565,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://shop-xo.hctestedu.com/index.php?s=api/buy/add'"
+      }, {
+        "name" : "data",
+        "value" : "None"
+      }, {
+        "name" : "json",
+        "value" : "{'goods_id': 10, 'buy_type': 'cart', 'stock': 1, 'spec': '', 'ids': '13717', 'address_id': 921, 'payment_id': 4, 'user_note': '', 'site_model': 0}"
+      }, {
+        "name" : "params",
+        "value" : "{'application': 'app', 'application_client_type': 'weixin', 'token': '4737dd28fce2b9a367fd32ead240e515'}"
+      }, {
+        "name" : "headers",
+        "value" : "None"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "a5f6e7c8eebba6dc",
+      "name" : "stdout",
+      "source" : "a5f6e7c8eebba6dc.txt",
+      "type" : "text/plain",
+      "size" : 352
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1667652797835,
+      "stop" : 1667652797835,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "DS_094"
+  }, {
+    "name" : "feature",
+    "value" : "F07_提交订单"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_Excel"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-IT6V6FE6"
+  }, {
+    "name" : "thread",
+    "value" : "36028-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_Excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70ddfd778c0c5319.json",
+  "parameterValues" : [ ]
+}

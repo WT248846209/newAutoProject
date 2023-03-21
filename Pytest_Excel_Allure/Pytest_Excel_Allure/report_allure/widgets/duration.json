@@ -1,0 +1,201 @@
+[ {
+  "uid" : "21c66b982da51ad7",
+  "name" : "DS_013验证当type输入不存在的类型提示错误信息",
+  "time" : {
+    "start" : 1667652794957,
+    "stop" : 1667652795069,
+    "duration" : 112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "524696af38b559ed",
+  "name" : "DS_999_4完成订单支付",
+  "time" : {
+    "start" : 1667652797709,
+    "stop" : 1667652797834,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5978191f0ed8153a",
+  "name" : "DS_124能查看当前用户所有的订单信息",
+  "time" : {
+    "start" : 1667652796588,
+    "stop" : 1667652796760,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f191b55f53395f8f",
+  "name" : "DS_143验证待支付的状态能正确取消",
+  "time" : {
+    "start" : 1667652796912,
+    "stop" : 1667652797032,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5b29800541a5e7de",
+  "name" : "DS_033验证无规格值可以加入到对应商品",
+  "time" : {
+    "start" : 1667652795441,
+    "stop" : 1667652795773,
+    "duration" : 332
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d9f0b3f2c61847d2",
+  "name" : "DS_135验证可以查看对应订单的详细信息",
+  "time" : {
+    "start" : 1667652796774,
+    "stop" : 1667652796908,
+    "duration" : 134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8655b13f0d290dfb",
+  "name" : "DS_006验证输入的参数非整数提示用户",
+  "time" : {
+    "start" : 1667652794843,
+    "stop" : 1667652794954,
+    "duration" : 111
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6d1fc7db28f62af",
+  "name" : "DS_094_1加入购物车",
+  "time" : {
+    "start" : 1667652796171,
+    "stop" : 1667652796296,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "274e3556c29ec761",
+  "name" : "DS_004验证输入的商品ID不存在提示用户",
+  "time" : {
+    "start" : 1667652794689,
+    "stop" : 1667652794839,
+    "duration" : 150
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9145061086025aab",
+  "name" : "DS_999_3验证能正确的下单商品",
+  "time" : {
+    "start" : 1667652797537,
+    "stop" : 1667652797696,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d21362af44e83486",
+  "name" : "DS_094_2查询购物车",
+  "time" : {
+    "start" : 1667652796308,
+    "stop" : 1667652796437,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b30695924593bf0c",
+  "name" : "DS_055_2删除购物车",
+  "time" : {
+    "start" : 1667652795885,
+    "stop" : 1667652796168,
+    "duration" : 283
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9fba2067bc2470ad",
+  "name" : "DS_022使用用户名能正确的登录用户",
+  "time" : {
+    "start" : 1667652795073,
+    "stop" : 1667652795194,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "70ddfd778c0c5319",
+  "name" : "DS_094_3验证能正确的下单商品",
+  "time" : {
+    "start" : 1667652796440,
+    "stop" : 1667652796585,
+    "duration" : 145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5232708104ce003c",
+  "name" : "DS_055_1查询购物车",
+  "time" : {
+    "start" : 1667652795776,
+    "stop" : 1667652795882,
+    "duration" : 106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6651b28f1e4a1633",
+  "name" : "DS_999_1验证无规格值可以加入到对应商品",
+  "time" : {
+    "start" : 1667652797035,
+    "stop" : 1667652797398,
+    "duration" : 363
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7ed13a0a26a2951c",
+  "name" : "DS_025验证输入错误的用户名提示用户",
+  "time" : {
+    "start" : 1667652795208,
+    "stop" : 1667652795320,
+    "duration" : 112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b37270be0d0e493",
+  "name" : "A_001置顶用例，正常登陆并获取TOKEN",
+  "time" : {
+    "start" : 1667652794484,
+    "stop" : 1667652794685,
+    "duration" : 201
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "c71440a11bf4b3a",
+  "name" : "DS_999_2查询购物车",
+  "time" : {
+    "start" : 1667652797401,
+    "stop" : 1667652797534,
+    "duration" : 133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec60f31d8d0683db",
+  "name" : "DS_026验证用户名为空提示用户",
+  "time" : {
+    "start" : 1667652795324,
+    "stop" : 1667652795438,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

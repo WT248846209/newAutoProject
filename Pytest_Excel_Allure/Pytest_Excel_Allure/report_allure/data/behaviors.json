@@ -1,0 +1,369 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "F01_置顶用例",
+    "children" : [ {
+      "name" : "A_001置顶用例，正常登陆并获取TOKEN",
+      "uid" : "6b37270be0d0e493",
+      "parentUid" : "8c239203a270026d4a1f120cf6341df1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667652794484,
+        "stop" : 1667652794685,
+        "duration" : 201
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8c239203a270026d4a1f120cf6341df1"
+  }, {
+    "name" : "F01_商品信息查询",
+    "children" : [ {
+      "name" : "DS_004",
+      "children" : [ {
+        "name" : "DS_004验证输入的商品ID不存在提示用户",
+        "uid" : "274e3556c29ec761",
+        "parentUid" : "c80a131c158be6292133f2d1b05c391a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667652794689,
+          "stop" : 1667652794839,
+          "duration" : 150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c80a131c158be6292133f2d1b05c391a"
+    }, {
+      "name" : "DS_006",
+      "children" : [ {
+        "name" : "DS_006验证输入的参数非整数提示用户",
+        "uid" : "8655b13f0d290dfb",
+        "parentUid" : "56d468c0217550ac17ec9645c58f3bab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667652794843,
+          "stop" : 1667652794954,
+          "duration" : 111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "56d468c0217550ac17ec9645c58f3bab"
+    } ],
+    "uid" : "79f388acbffda74a0e6515ac41b1ad95"
+  }, {
+    "name" : "F02_用户注册",
+    "children" : [ {
+      "name" : "DS_013",
+      "children" : [ {
+        "name" : "DS_013验证当type输入不存在的类型提示错误信息",
+        "uid" : "21c66b982da51ad7",
+        "parentUid" : "b027a5fb83e3db37071f9edf1645104f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667652794957,
+          "stop" : 1667652795069,
+          "duration" : 112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b027a5fb83e3db37071f9edf1645104f"
+    } ],
+    "uid" : "a1f1aec6b62124e9dbb9b8e5cd77e7ef"
+  }, {
+    "name" : "F03_用户登陆",
+    "children" : [ {
+      "name" : "DS_022",
+      "children" : [ {
+        "name" : "DS_022使用用户名能正确的登录用户",
+        "uid" : "9fba2067bc2470ad",
+        "parentUid" : "1a56f6a2d4d267bdb36b9f457580a2e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667652795073,
+          "stop" : 1667652795194,
+          "duration" : 121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a56f6a2d4d267bdb36b9f457580a2e2"
+    }, {
+      "name" : "DS_025",
+      "children" : [ {
+        "name" : "DS_025验证输入错误的用户名提示用户",
+        "uid" : "7ed13a0a26a2951c",
+        "parentUid" : "10d1525c4bd6850072baa32cee03cb52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667652795208,
+          "stop" : 1667652795320,
+          "duration" : 112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "10d1525c4bd6850072baa32cee03cb52"
+    }, {
+      "name" : "DS_026",
+      "children" : [ {
+        "name" : "DS_026验证用户名为空提示用户",
+        "uid" : "ec60f31d8d0683db",
+        "parentUid" : "5c4fbcc5c77e665f15265d28c1b62a0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667652795324,
+          "stop" : 1667652795438,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5c4fbcc5c77e665f15265d28c1b62a0e"
+    } ],
+    "uid" : "ae833a6fa51ae8baba7214cdcc82acd2"
+  }, {
+    "name" : "F04_加入购物车",
+    "children" : [ {
+      "name" : "DS_033",
+      "children" : [ {
+        "name" : "DS_033验证无规格值可以加入到对应商品",
+        "uid" : "5b29800541a5e7de",
+        "parentUid" : "b84fd030bb9c2018a2847ed7454ee3f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667652795441,
+          "stop" : 1667652795773,
+          "duration" : 332
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b84fd030bb9c2018a2847ed7454ee3f7"
+    } ],
+    "uid" : "b96cc80a0efce446748f4c7c70999e5b"
+  }, {
+    "name" : "F05_查询购物车",
+    "children" : [ {
+      "name" : "DS_055",
+      "children" : [ {
+        "name" : "DS_055_1查询购物车",
+        "uid" : "5232708104ce003c",
+        "parentUid" : "f0638ca23644ca4139b58ce617c721a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667652795776,
+          "stop" : 1667652795882,
+          "duration" : 106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0638ca23644ca4139b58ce617c721a0"
+    } ],
+    "uid" : "e4f6e801cacb8465cb12f87141603220"
+  }, {
+    "name" : "F06_删除购物车",
+    "children" : [ {
+      "name" : "DS_055",
+      "children" : [ {
+        "name" : "DS_055_2删除购物车",
+        "uid" : "b30695924593bf0c",
+        "parentUid" : "e76ad68f472913f277b626f3c7d732d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667652795885,
+          "stop" : 1667652796168,
+          "duration" : 283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e76ad68f472913f277b626f3c7d732d3"
+    } ],
+    "uid" : "ce026e1904a249492ed3676163b8811d"
+  }, {
+    "name" : "F07_提交订单",
+    "children" : [ {
+      "name" : "DS_094",
+      "children" : [ {
+        "name" : "DS_094_1加入购物车",
+        "uid" : "a6d1fc7db28f62af",
+        "parentUid" : "e6b48950e59e6c6ce0f13c3b81f6bf6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667652796171,
+          "stop" : 1667652796296,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "DS_094_2查询购物车",
+        "uid" : "d21362af44e83486",
+        "parentUid" : "e6b48950e59e6c6ce0f13c3b81f6bf6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667652796308,
+          "stop" : 1667652796437,
+          "duration" : 129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "DS_094_3验证能正确的下单商品",
+        "uid" : "70ddfd778c0c5319",
+        "parentUid" : "e6b48950e59e6c6ce0f13c3b81f6bf6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667652796440,
+          "stop" : 1667652796585,
+          "duration" : 145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e6b48950e59e6c6ce0f13c3b81f6bf6f"
+    } ],
+    "uid" : "61fc0de8fce7b5652fb2127f5381ae9b"
+  }, {
+    "name" : "F08_订单列表",
+    "children" : [ {
+      "name" : "DS_124",
+      "children" : [ {
+        "name" : "DS_124能查看当前用户所有的订单信息",
+        "uid" : "5978191f0ed8153a",
+        "parentUid" : "1c8b778c1eed0ae8a1b718a3764d23f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667652796588,
+          "stop" : 1667652796760,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1c8b778c1eed0ae8a1b718a3764d23f9"
+    } ],
+    "uid" : "e9220db62e2faefa7c53218adab9c28d"
+  }, {
+    "name" : "F09_订单详情",
+    "children" : [ {
+      "name" : "DS_125",
+      "children" : [ {
+        "name" : "DS_135验证可以查看对应订单的详细信息",
+        "uid" : "d9f0b3f2c61847d2",
+        "parentUid" : "c000ba28f7422dcebcd0947f694cd112",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667652796774,
+          "stop" : 1667652796908,
+          "duration" : 134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c000ba28f7422dcebcd0947f694cd112"
+    } ],
+    "uid" : "c5f21344bca5f12a50419f9c3d19081a"
+  }, {
+    "name" : "F10_取消订单",
+    "children" : [ {
+      "name" : "DS_144",
+      "children" : [ {
+        "name" : "DS_143验证待支付的状态能正确取消",
+        "uid" : "f191b55f53395f8f",
+        "parentUid" : "aadad91fc203bd9b3fe627db470412ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667652796912,
+          "stop" : 1667652797032,
+          "duration" : 120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aadad91fc203bd9b3fe627db470412ba"
+    } ],
+    "uid" : "2f5ff8fb4db1f570ad1c33d0d3d2c70b"
+  }, {
+    "name" : "F11_订单支付",
+    "children" : [ {
+      "name" : "DS_999",
+      "children" : [ {
+        "name" : "DS_999_1验证无规格值可以加入到对应商品",
+        "uid" : "6651b28f1e4a1633",
+        "parentUid" : "cb9876d6462332d2c36beebd2946e4db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667652797035,
+          "stop" : 1667652797398,
+          "duration" : 363
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "DS_999_2查询购物车",
+        "uid" : "c71440a11bf4b3a",
+        "parentUid" : "cb9876d6462332d2c36beebd2946e4db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667652797401,
+          "stop" : 1667652797534,
+          "duration" : 133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "DS_999_3验证能正确的下单商品",
+        "uid" : "9145061086025aab",
+        "parentUid" : "cb9876d6462332d2c36beebd2946e4db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667652797537,
+          "stop" : 1667652797696,
+          "duration" : 159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "DS_999_4完成订单支付",
+        "uid" : "524696af38b559ed",
+        "parentUid" : "cb9876d6462332d2c36beebd2946e4db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667652797709,
+          "stop" : 1667652797834,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb9876d6462332d2c36beebd2946e4db"
+    } ],
+    "uid" : "fac17589178c6b0622f77f377f30bbb4"
+  } ]
+}

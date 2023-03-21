@@ -1,0 +1,138 @@
+{
+  "uid" : "5978191f0ed8153a",
+  "name" : "DS_124能查看当前用户所有的订单信息",
+  "fullName" : "case.test_Excel#test01",
+  "historyId" : "525cb93f3705a5150445dda3342bcf3e",
+  "time" : {
+    "start" : 1667652796588,
+    "stop" : 1667652796760,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1667652794460,
+      "stop" : 1667652794483,
+      "duration" : 23
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送post请求",
+      "time" : {
+        "start" : 1667652796589,
+        "stop" : 1667652796731,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://shop-xo.hctestedu.com/index.php?s=api/order/index'"
+      }, {
+        "name" : "data",
+        "value" : "None"
+      }, {
+        "name" : "json",
+        "value" : "None"
+      }, {
+        "name" : "params",
+        "value" : "{'application': 'app', 'application_client_type': 'weixin', 'token': '4737dd28fce2b9a367fd32ead240e515'}"
+      }, {
+        "name" : "headers",
+        "value" : "None"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "b61e5b8bfb4534d9",
+      "name" : "stdout",
+      "source" : "b61e5b8bfb4534d9.txt",
+      "type" : "text/plain",
+      "size" : 26628
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1667652797835,
+      "stop" : 1667652797835,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "DS_124"
+  }, {
+    "name" : "feature",
+    "value" : "F08_订单列表"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_Excel"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-IT6V6FE6"
+  }, {
+    "name" : "thread",
+    "value" : "36028-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_Excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5978191f0ed8153a.json",
+  "parameterValues" : [ ]
+}

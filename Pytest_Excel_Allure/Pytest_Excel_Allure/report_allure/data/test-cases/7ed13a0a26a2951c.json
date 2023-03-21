@@ -1,0 +1,138 @@
+{
+  "uid" : "7ed13a0a26a2951c",
+  "name" : "DS_025验证输入错误的用户名提示用户",
+  "fullName" : "case.test_Excel#test01",
+  "historyId" : "ac172c770d9dd88144b50e6c17c0e18c",
+  "time" : {
+    "start" : 1667652795208,
+    "stop" : 1667652795320,
+    "duration" : 112
+  },
+  "description" : "提示错误信息：\n{\n    \"msg\": \"登录帐号不存在\",\n    \"code\": -3,\n    \"data\": \"\"\n}",
+  "descriptionHtml" : "<p>提示错误信息：\n{\n&quot;msg&quot;: &quot;登录帐号不存在&quot;,\n&quot;code&quot;: -3,\n&quot;data&quot;: &quot;&quot;\n}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1667652794460,
+      "stop" : 1667652794483,
+      "duration" : 23
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "提示错误信息：\n{\n    \"msg\": \"登录帐号不存在\",\n    \"code\": -3,\n    \"data\": \"\"\n}",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送post请求",
+      "time" : {
+        "start" : 1667652795208,
+        "stop" : 1667652795301,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://shop-xo.hctestedu.com/index.php?s=api/user/login'"
+      }, {
+        "name" : "data",
+        "value" : "None"
+      }, {
+        "name" : "json",
+        "value" : "{'accounts': 'zz11233', 'pwd': '123456', 'type': 'username'}"
+      }, {
+        "name" : "params",
+        "value" : "{'application': 'app', 'application_client_type': 'weixin'}"
+      }, {
+        "name" : "headers",
+        "value" : "None"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "e84fde204ae843a6",
+      "name" : "stdout",
+      "source" : "e84fde204ae843a6.txt",
+      "type" : "text/plain",
+      "size" : 165
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1667652797835,
+      "stop" : 1667652797835,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "DS_025"
+  }, {
+    "name" : "feature",
+    "value" : "F03_用户登陆"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_Excel"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-IT6V6FE6"
+  }, {
+    "name" : "thread",
+    "value" : "36028-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_Excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ed13a0a26a2951c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,138 @@
+{
+  "uid" : "8655b13f0d290dfb",
+  "name" : "DS_006验证输入的参数非整数提示用户",
+  "fullName" : "case.test_Excel#test01",
+  "historyId" : "f00eb233a75d1526837b215f5353ed83",
+  "time" : {
+    "start" : 1667652794843,
+    "stop" : 1667652794954,
+    "duration" : 111
+  },
+  "description" : "提示错误信息：\n{\n    \"msg\": \"商品不存在或已删除\",\n    \"code\": -1,\n    \"data\": \"\"\n}",
+  "descriptionHtml" : "<p>提示错误信息：\n{\n&quot;msg&quot;: &quot;商品不存在或已删除&quot;,\n&quot;code&quot;: -1,\n&quot;data&quot;: &quot;&quot;\n}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1667652794460,
+      "stop" : 1667652794483,
+      "duration" : 23
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "提示错误信息：\n{\n    \"msg\": \"商品不存在或已删除\",\n    \"code\": -1,\n    \"data\": \"\"\n}",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送post请求",
+      "time" : {
+        "start" : 1667652794843,
+        "stop" : 1667652794930,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://shop-xo.hctestedu.com/index.php?s=api/goods/detail'"
+      }, {
+        "name" : "data",
+        "value" : "None"
+      }, {
+        "name" : "json",
+        "value" : "{'goods_id': 'aaa'}"
+      }, {
+        "name" : "params",
+        "value" : "{'application': 'app', 'application_client_type': 'weixin', 'token': '4737dd28fce2b9a367fd32ead240e515'}"
+      }, {
+        "name" : "headers",
+        "value" : "None"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "ea7cbd9159ea4213",
+      "name" : "stdout",
+      "source" : "ea7cbd9159ea4213.txt",
+      "type" : "text/plain",
+      "size" : 171
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1667652797835,
+      "stop" : 1667652797835,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "DS_006"
+  }, {
+    "name" : "feature",
+    "value" : "F01_商品信息查询"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_Excel"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-IT6V6FE6"
+  }, {
+    "name" : "thread",
+    "value" : "36028-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_Excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8655b13f0d290dfb.json",
+  "parameterValues" : [ ]
+}

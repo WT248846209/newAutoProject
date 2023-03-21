@@ -1,0 +1,3 @@
+{"msg":"处理成功","code":0,"data":{"is_payment_type":1,"data":"http:\/\/shop-xo.hctestedu.com\/payment_order_deliverypayment_respond.php?out_trade_no=20221105205317582962&subject=订单支付&total_price=228","order_id":"3348","order_no":"20221105205317582962","payment":{"id":"4","name":"货到付款","payment":"DeliveryPayment"}}}
+=============参数信息=================
+{'VAR_TOKEN': '4737dd28fce2b9a367fd32ead240e515', 'VAR_UID': '18446', 'VAR_CARTID': '13718', 'VAR_GOODSID': '10', 'VAR_ORDERID': '5975'}

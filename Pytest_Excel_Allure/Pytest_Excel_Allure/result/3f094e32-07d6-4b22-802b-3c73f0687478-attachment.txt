@@ -1,0 +1,3 @@
+{"msg":"登录成功","code":0,"data":{"id":"7073","username":"zz","nickname":"","mobile":"","email":"","avatar":"http:\/\/shop-xo.hctestedu.com\/static\/index\/default\/images\/default-user-avatar.jpg","alipay_openid":"","weixin_openid":"","weixin_unionid":"","weixin_web_openid":"","baidu_openid":"","toutiao_openid":"","qq_openid":"","qq_unionid":"","integral":"0","locking_integral":"0","referrer":"0","add_time":"1646195490","add_time_text":"2022-03-02 12:31:30","mobile_security":"","email_security":"","user_name_view":"zz","is_mandatory_bind_mobile":0,"token":"0cb497a487da2dae2938cf3a69a796f5"}}
+=============参数信息=================
+{'VAR_TOKEN': '4737dd28fce2b9a367fd32ead240e515', 'VAR_UID': '18446'}

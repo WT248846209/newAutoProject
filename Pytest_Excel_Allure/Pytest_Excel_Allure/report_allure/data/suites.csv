@@ -1,0 +1,73 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Nov 05 20:53:14 CST 2022","Sat Nov 05 20:53:15 CST 2022","112","case","test_Excel","","","","DS_013验证当type输入不存在的类型提示错误信息","提示错误信息：
+{
+    ""msg"": ""注册类型有误"",
+    ""code"": -1,
+    ""data"": """"
+}"
+"passed","Sat Nov 05 20:53:17 CST 2022","Sat Nov 05 20:53:17 CST 2022","125","case","test_Excel","","","","DS_999_4完成订单支付",""
+"passed","Sat Nov 05 20:53:16 CST 2022","Sat Nov 05 20:53:16 CST 2022","172","case","test_Excel","","","","DS_124能查看当前用户所有的订单信息",""
+"passed","Sat Nov 05 20:53:16 CST 2022","Sat Nov 05 20:53:17 CST 2022","120","case","test_Excel","","","","DS_143验证待支付的状态能正确取消",""
+"passed","Sat Nov 05 20:53:15 CST 2022","Sat Nov 05 20:53:15 CST 2022","332","case","test_Excel","","","","DS_033验证无规格值可以加入到对应商品","能够正确添加购物车，数据库插入数据，并提示：
+{
+    ""msg"": ""加入成功"",
+    ""code"": 0,
+    ""data"": 商品数量
+}"
+"passed","Sat Nov 05 20:53:16 CST 2022","Sat Nov 05 20:53:16 CST 2022","134","case","test_Excel","","","","DS_135验证可以查看对应订单的详细信息",""
+"passed","Sat Nov 05 20:53:14 CST 2022","Sat Nov 05 20:53:14 CST 2022","111","case","test_Excel","","","","DS_006验证输入的参数非整数提示用户","提示错误信息：
+{
+    ""msg"": ""商品不存在或已删除"",
+    ""code"": -1,
+    ""data"": """"
+}"
+"passed","Sat Nov 05 20:53:16 CST 2022","Sat Nov 05 20:53:16 CST 2022","125","case","test_Excel","","","","DS_094_1加入购物车","能够正确添加购物车，数据库插入数据，并提示：
+{
+    ""msg"": ""加入成功"",
+    ""code"": 0,
+    ""data"": 商品数量
+}"
+"passed","Sat Nov 05 20:53:14 CST 2022","Sat Nov 05 20:53:14 CST 2022","150","case","test_Excel","","","","DS_004验证输入的商品ID不存在提示用户","提示错误信息：
+{
+    ""msg"": ""商品不存在或已删除"",
+    ""code"": -1,
+    ""data"": """"
+}"
+"passed","Sat Nov 05 20:53:17 CST 2022","Sat Nov 05 20:53:17 CST 2022","159","case","test_Excel","","","","DS_999_3验证能正确的下单商品",""
+"passed","Sat Nov 05 20:53:16 CST 2022","Sat Nov 05 20:53:16 CST 2022","129","case","test_Excel","","","","DS_094_2查询购物车","删除购物车用例使用"
+"passed","Sat Nov 05 20:53:15 CST 2022","Sat Nov 05 20:53:16 CST 2022","283","case","test_Excel","","","","DS_055_2删除购物车","能正确的删除数据，并且从购物车列表表中移除，提示用户:
+{
+    ""msg"": ""删除成功"",
+    ""code"": 0,
+    ""data"": 2
+}"
+"passed","Sat Nov 05 20:53:15 CST 2022","Sat Nov 05 20:53:15 CST 2022","121","case","test_Excel","","","","DS_022使用用户名能正确的登录用户","能够正确的登录并且显示对应的用户信息：
+{
+    ""msg"": ""登录成功"",
+    ""code"": 0,
+    ""data"": {
+      ...
+    }
+}"
+"passed","Sat Nov 05 20:53:16 CST 2022","Sat Nov 05 20:53:16 CST 2022","145","case","test_Excel","","","","DS_094_3验证能正确的下单商品",""
+"passed","Sat Nov 05 20:53:15 CST 2022","Sat Nov 05 20:53:15 CST 2022","106","case","test_Excel","","","","DS_055_1查询购物车","删除购物车用例使用"
+"passed","Sat Nov 05 20:53:17 CST 2022","Sat Nov 05 20:53:17 CST 2022","363","case","test_Excel","","","","DS_999_1验证无规格值可以加入到对应商品","能够正确添加购物车，数据库插入数据，并提示：
+{
+    ""msg"": ""加入成功"",
+    ""code"": 0,
+    ""data"": 商品数量
+}"
+"passed","Sat Nov 05 20:53:15 CST 2022","Sat Nov 05 20:53:15 CST 2022","112","case","test_Excel","","","","DS_025验证输入错误的用户名提示用户","提示错误信息：
+{
+    ""msg"": ""登录帐号不存在"",
+    ""code"": -3,
+    ""data"": """"
+}"
+"passed","Sat Nov 05 20:53:14 CST 2022","Sat Nov 05 20:53:14 CST 2022","201","case","test_Excel","","","","A_001置顶用例，正常登陆并获取TOKEN","置顶用例获取TOKEN"
+"passed","Sat Nov 05 20:53:17 CST 2022","Sat Nov 05 20:53:17 CST 2022","133","case","test_Excel","","","","DS_999_2查询购物车","删除购物车用例使用"
+"passed","Sat Nov 05 20:53:15 CST 2022","Sat Nov 05 20:53:15 CST 2022","114","case","test_Excel","","","","DS_026验证用户名为空提示用户","提示错误信息：
+{
+    ""msg"": ""登录账号不能为空"",
+    ""code"": -1,
+    ""data"": """"
+}"

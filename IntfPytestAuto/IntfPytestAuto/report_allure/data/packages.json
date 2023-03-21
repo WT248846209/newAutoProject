@@ -1,0 +1,178 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "case.test_cases",
+    "children" : [ {
+      "name" : "testDS_004验证输入的商品ID不存在提示用户",
+      "uid" : "4062b82d94f4f9ec",
+      "parentUid" : "5ed4e177bc5eb27135a610a9e5ca9f24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667660643998,
+        "stop" : 1667660644083,
+        "duration" : 85
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDS_010用户名为不超过7位，注册成功",
+      "uid" : "fd47c9cad24ebbf4",
+      "parentUid" : "5ed4e177bc5eb27135a610a9e5ca9f24",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1667660644085,
+        "stop" : 1667660644085,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDS_013验证当type输入不存在的类型提示错误信息",
+      "uid" : "c605fab700eaad23",
+      "parentUid" : "5ed4e177bc5eb27135a610a9e5ca9f24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667660644087,
+        "stop" : 1667660644165,
+        "duration" : 78
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDS_022使用用户名能正确的登录用户",
+      "uid" : "82607821dc232714",
+      "parentUid" : "5ed4e177bc5eb27135a610a9e5ca9f24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667660644167,
+        "stop" : 1667660644284,
+        "duration" : 117
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDS_025验证输入错误的用户名提示用户",
+      "uid" : "528795132be201e8",
+      "parentUid" : "5ed4e177bc5eb27135a610a9e5ca9f24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667660644286,
+        "stop" : 1667660644379,
+        "duration" : 93
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDS_026验证用户名为空提示用户",
+      "uid" : "5110262aedb9d9d5",
+      "parentUid" : "5ed4e177bc5eb27135a610a9e5ca9f24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667660644382,
+        "stop" : 1667660644458,
+        "duration" : 76
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDS_033验证无规格值可以加入到对应商品",
+      "uid" : "7dcfa530e5953fef",
+      "parentUid" : "5ed4e177bc5eb27135a610a9e5ca9f24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667660644460,
+        "stop" : 1667660644556,
+        "duration" : 96
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDS_055能删除当前用户对应的购物车",
+      "uid" : "b9b266c09a07f8c0",
+      "parentUid" : "5ed4e177bc5eb27135a610a9e5ca9f24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667660644558,
+        "stop" : 1667660644874,
+        "duration" : 316
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDS_094验证能正确的下单",
+      "uid" : "485d36f075ac0932",
+      "parentUid" : "5ed4e177bc5eb27135a610a9e5ca9f24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667660644877,
+        "stop" : 1667660645203,
+        "duration" : 326
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDS_124能查看当前用户所有的订单信息",
+      "uid" : "34f70f9a4cece1d1",
+      "parentUid" : "5ed4e177bc5eb27135a610a9e5ca9f24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667660645205,
+        "stop" : 1667660645672,
+        "duration" : 467
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDS_135验证可以查看对应订单的详细信息",
+      "uid" : "73c4f75ba3d8a967",
+      "parentUid" : "5ed4e177bc5eb27135a610a9e5ca9f24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667660645675,
+        "stop" : 1667660646092,
+        "duration" : 417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDS_143验证待支付的状态能正确取消",
+      "uid" : "c0df5e348ef9efb",
+      "parentUid" : "5ed4e177bc5eb27135a610a9e5ca9f24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667660646095,
+        "stop" : 1667660646508,
+        "duration" : 413
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDS_999完成订单支付",
+      "uid" : "cf19c65e1018af29",
+      "parentUid" : "5ed4e177bc5eb27135a610a9e5ca9f24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667660646511,
+        "stop" : 1667660646944,
+        "duration" : 433
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "case.test_cases"
+  } ]
+}

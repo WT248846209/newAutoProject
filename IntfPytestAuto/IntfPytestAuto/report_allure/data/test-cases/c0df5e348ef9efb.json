@@ -1,0 +1,207 @@
+{
+  "uid" : "c0df5e348ef9efb",
+  "name" : "testDS_143验证待支付的状态能正确取消",
+  "fullName" : "case.test_cases#testDS_143",
+  "historyId" : "5cbc318b743dbc724ae1803e7b61489c",
+  "time" : {
+    "start" : 1667660646095,
+    "stop" : 1667660646508,
+    "duration" : 413
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "token_fix",
+    "time" : {
+      "start" : 1667660643885,
+      "stop" : 1667660643997,
+      "duration" : 112
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送post请求",
+      "time" : {
+        "start" : 1667660643885,
+        "stop" : 1667660643996,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://shop-xo.hctestedu.com/index.php?s=api/user/login'"
+      }, {
+        "name" : "params",
+        "value" : "{'application': 'app', 'application_client_type': 'weixin'}"
+      }, {
+        "name" : "json",
+        "value" : "{'accounts': 'zz', 'pwd': '123456', 'type': 'username'}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送post请求",
+      "time" : {
+        "start" : 1667660646095,
+        "stop" : 1667660646193,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://shop-xo.hctestedu.com/index.php?s=api/cart/save'"
+      }, {
+        "name" : "params",
+        "value" : "{'application': 'app', 'application_client_type': 'weixin', 'token': '19bbed143ab7004b3538fad450ccf5cd'}"
+      }, {
+        "name" : "json",
+        "value" : "{'goods_id': '10', 'spec': '', 'stock': 1}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "发送post请求",
+      "time" : {
+        "start" : 1667660646193,
+        "stop" : 1667660646293,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://shop-xo.hctestedu.com/index.php?s=api/cart/index'"
+      }, {
+        "name" : "params",
+        "value" : "{'application': 'app', 'application_client_type': 'weixin', 'token': '19bbed143ab7004b3538fad450ccf5cd'}"
+      }, {
+        "name" : "json",
+        "value" : "{'goods_id': '10', 'spec': '', 'stock': 1}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "发送post请求",
+      "time" : {
+        "start" : 1667660646294,
+        "stop" : 1667660646404,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://shop-xo.hctestedu.com/index.php?s=api/buy/add'"
+      }, {
+        "name" : "params",
+        "value" : "{'application': 'app', 'application_client_type': 'weixin', 'token': '19bbed143ab7004b3538fad450ccf5cd'}"
+      }, {
+        "name" : "json",
+        "value" : "{'goods_id': 10, 'buy_type': 'cart', 'stock': 1, 'spec': '', 'ids': '13797', 'address_id': 921, 'payment_id': 4, 'user_note': '', 'site_model': 0}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "发送post请求",
+      "time" : {
+        "start" : 1667660646404,
+        "stop" : 1667660646508,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "'http://shop-xo.hctestedu.com/index.php?s=api/order/cancel'"
+      }, {
+        "name" : "params",
+        "value" : "{'application': 'app', 'application_client_type': 'weixin', 'token': '19bbed143ab7004b3538fad450ccf5cd'}"
+      }, {
+        "name" : "json",
+        "value" : "{'id': '6046'}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4a3edc9f1ad889cd",
+      "name" : "stdout",
+      "source" : "4a3edc9f1ad889cd.txt",
+      "type" : "text/plain",
+      "size" : 1197
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "取消订单"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_cases"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-IT6V6FE6"
+  }, {
+    "name" : "thread",
+    "value" : "37236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c0df5e348ef9efb.json",
+  "parameterValues" : [ ]
+}
